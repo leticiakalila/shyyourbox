@@ -4,7 +4,7 @@
     Sementara itu, Form GET digunakan untuk mengambil data dari server dan menampilkan data tersebut dalam URL. Data yang dikirim melalui Form GET akan terlihat di URL dan digunakan untuk permintaan yang hanya mengambil informasi dari server tanpa melakukan perubahan pada data yang ada. Contohnya, saat melakukan pencarian atau filtering berdasarkan kriteria tertentu.
 
 2. Apa perbedaan utama antara XML, JSON, dan HTML dalam konteks pengiriman data?
-    Perbedaan utama dari XML, JSON, dan HTML dlaam konteks pengiriman data terletak pada struktur datanya. XML adalah bahasa markup yang sangat fleksibel dan dapat digunakan untuk mendefinisikan struktur data sesuai kebutuhan. Ini menggunakan tags yang dapat disesuaikan untuk menggambarkan hierarki data yang kompleks. Untuk struktur data JSON adalah format data yang lebih ringkas dan sederhana. Data diwakili dalam bentuk pasangan "nama-nilai" (key-value pairs) dan memiliki struktur yang mirip dengan objek JavaScript. Sementara untuk struktur data HTML memiliki struktur tetap dengan elemen-elemen seperti heading, paragraph, dan link yang digunakan untuk membuat halaman web.
+    Perbedaan utama dari XML, JSON, dan HTML dalam konteks pengiriman data terletak pada struktur datanya. XML adalah bahasa markup yang sangat fleksibel dan dapat digunakan untuk mendefinisikan struktur data sesuai kebutuhan. Ini menggunakan tags yang dapat disesuaikan untuk menggambarkan hierarki data yang kompleks. Untuk struktur data JSON adalah format data yang lebih ringkas dan sederhana. Data diwakili dalam bentuk pasangan "nama-nilai" (key-value pairs) dan memiliki struktur yang mirip dengan objek JavaScript. Sementara untuk struktur data HTML memiliki struktur tetap dengan elemen-elemen seperti heading, paragraph, dan link yang digunakan untuk membuat halaman web.
 
 
 3. Mengapa JSON sering digunakan dalam pertukaran data antara aplikasi web modern?
@@ -19,8 +19,8 @@
     - selanjutnya saya membuat 4 fungsi baru untuk mengubah data menjadi bentuk XML, JSON, XML BY ID, DAN JSON_BY_ID dengan menggunakan method serializers
 
 
-Screenshot hasil akses URL pada postman
-![Alt text](HTML-1.jpg)
+Screenshot hasil akses URL pada postman:
+![Alt text](HTML.jpg)
 ![Alt text](XML.jpg)
 ![Alt text](JSON.jpg)
 ![Alt text](XML_BY_ID.jpg)
