@@ -6,8 +6,51 @@
 
 {% block content %}
 
-<div class = "login">
+<style>
+    /* CSS untuk mendesain elemen login */
+    .login {
+        background-color: #93d7f7; 
+        padding: 20px;
+        border-radius: 10px;
+    }
 
+    h1 {
+        color: #c269b3; /* Warna teks judul */
+        text-align: center;
+    }
+
+    .login_btn {
+        background-color: #c269b3; /* Warna latar belakang tombol login */
+        color: #fff; /* Warna teks tombol login */
+        border: none;
+        border-radius: 5px;
+        padding: 10px 20px;
+        cursor: pointer;
+    }
+
+    .login_btn:hover {
+        background-color: #b30086; /* Warna latar belakang tombol saat hover */
+    }
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    ul li {
+        color: #ff00d0; /* Warna teks pesan kesalahan */
+    }
+
+    a {
+        color: #b30086; /* Warna teks tautan Register Now */
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+</style>
+
+<div class="login">
     <h1>Login</h1>
 
     <form method="POST" action="">
@@ -39,7 +82,6 @@
     {% endif %}     
         
     Don't have an account yet? <a href="{% url 'main:register' %}">Register Now</a>
-
 </div>
 
 {% endblock content %}
